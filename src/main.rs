@@ -4,7 +4,7 @@ use std::io;
 fn main(){
     let secret = rand::thread_rng().gen_range(1..=100);
     println!("The guessing game!");
-    println!("The secret number is {secret}");
+   // println!("The secret number is {secret}");
     println!("Input a number btw 1-100");
     loop{
         let mut guess = String::new();
